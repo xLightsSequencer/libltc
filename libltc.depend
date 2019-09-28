@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\keith\documents\libltc\main.cpp
+	"main.h"
+
+1514140574 c:\users\keith\documents\libltc\main.h
+	<windows.h>
+
+1569568592 source:c:\users\keith\documents\libltc\src\decoder.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"decoder.h"
+
+1569568592 c:\users\keith\documents\libltc\src\decoder.h
+	"ltc.h"
+
+1569568593 c:\users\keith\documents\libltc\src\ltc.h
+	<endian.h>
+	<stddef.h>
+
+1569568592 source:c:\users\keith\documents\libltc\src\encoder.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"encoder.h"
+
+1569568592 c:\users\keith\documents\libltc\src\encoder.h
+	"ltc.h"
+
+1569568592 source:c:\users\keith\documents\libltc\src\ltc.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"ltc.h"
+	"decoder.h"
+	"encoder.h"
+
+1569569651 source:c:\users\keith\documents\libltc\src\timecode.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ltc.h"
+	<config.h>
+
