@@ -7,12 +7,12 @@
 		<Option compiler="gnu_gcc_64bit_compiler" />
 		<Build>
 			<Target title="Release64">
-				<Option output="bin64/Release/libltc" prefix_auto="1" extension_auto="1" />
+				<Option output="bin64/Release/ltc" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
 				<Option object_output="obj64/Release/" />
-				<Option type="3" />
+				<Option type="2" />
 				<Option compiler="gnu_gcc_64bit_compiler" />
 				<Option createDefFile="1" />
-				<Option createStaticLib="1" />
 				<Compiler>
 					<Add option="-O2" />
 					<Add option="-Wall" />
@@ -26,12 +26,12 @@
 				</Linker>
 			</Target>
 			<Target title="Release32">
-				<Option output="bin32/Release/libltc" prefix_auto="1" extension_auto="1" />
+				<Option output="bin32/Release/ltc" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
 				<Option object_output="obj32/Release/" />
-				<Option type="3" />
+				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
-				<Option createStaticLib="1" />
 				<Compiler>
 					<Add option="-O2" />
 					<Add option="-Wall" />
