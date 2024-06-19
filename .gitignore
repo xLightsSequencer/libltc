@@ -49,3 +49,7 @@ Doxyfile
 
 LibLTC/Release
 LibLTC/.vs
+
+LibLTC/LibLTC/Debug
+LibLTC/LibLTC/Release
+LibLTC/LibLTC/x64
