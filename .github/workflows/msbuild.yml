@@ -42,4 +42,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: LibLTC_Lib_${{ matrix.configurations }}
-        path: LibLTC/x64/${{ matrix.configurations }}/*'
+        path: 'LibLTC\x64\${{ matrix.configurations }}\*'
